@@ -14,7 +14,7 @@ module switches {
 
     list Switches {
       key Model_Number;
-      description "Model that repersents generic switches across manufacturers";
+      description "Model that represents generic switches across manufacturers";
 
       leaf Manufacturer {
         type enumeration {
@@ -46,7 +46,7 @@ module switches {
 
       list Interfaces {
         key Interface_Type;
-        description "List of Interface Type adn number of interfaces available of that type";
+        description "List of Interface Type and number of interfaces available of that type";
 
         leaf Interface_Type {
           type enumeration {
